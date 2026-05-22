@@ -1,0 +1,104 @@
+body {
+  background-color: #1a1a1a;
+  margin: 0;
+}
+
+.logo {
+  background-color: #25f500;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+.nav-container {
+  background-color: #25f500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0px;
+  height: 15px;
+  text-decoration: none;
+}
+.navi {
+  display: flex;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.pos {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+}
+.cards {
+  background-color: #1a1a1a;
+  color: white;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin: 40px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.Dungeons2 {
+  height: 315px;
+}
+.Legends {
+  height: 320px;
+}
+.Dungeons {
+  background-color: #1a1a1a;
+  height: 310px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  background-color: #333333;
+  height: 50px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.buy {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  transition: 2s;
+  font-size: 60px;
+  padding: 30px;
+}
+.buy:hover {
+  background-color: white;
+  color: black;
+  transition: 2s;
+}
+.name-game {
+  text-align: center;
+}
+.novunu {
+  color: white;
+  text-align: center;
+}
+.movie {
+  color: white;
+  text-align: center;
+}
+.imaga {
+  display: flex;
+  justify-content: center;
+}
+.film {
+  width: 500px;
+  height: 500px;
+  margin-top: 20px;
+}
